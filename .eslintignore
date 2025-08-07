@@ -1,6 +1,8 @@
 src/utils/popper.js
 src/utils/date.js
 src/utils/lodash.js
+packages/theme-chalk/gulpfile.js
+build/bin/gen-cssfile.js
 examples/play
 *.sh
 node_modules
