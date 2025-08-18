@@ -15,12 +15,11 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v2
         with:
-          node-version: '10.15.0'
+          node-version: "10.15.0"
           registry-url: https://registry.npmjs.com/
 
       - name: Build
         run: npm run bootstrap && npm run deploy:build
-        
 
       # share website dist
       - name: Upload artifact

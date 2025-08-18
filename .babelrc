@@ -12,7 +12,19 @@
     ],
     "stage-2"
   ],
-  "plugins": ["transform-vue-jsx"],
+  "plugins": [
+    "transform-vue-jsx",
+    [
+      "module-resolver",
+      {
+        "root": ["./"],
+        "alias": {
+          "element-ui/src": "./src",
+          "element-ui/packages": "./packages"
+        }
+      }
+    ]
+  ],
   "env": {
     "utils": {
       "presets": [
@@ -25,15 +37,18 @@
               "browsers": ["> 1%", "last 2 versions", "not ie <= 8"]
             }
           }
-        ],
+        ]
       ],
       "plugins": [
-        ["module-resolver", {
-          "root": ["element-ui"],
-          "alias": {
-            "element-ui/src": "element-ui/lib"
+        [
+          "module-resolver",
+          {
+            "root": ["element-ui"],
+            "alias": {
+              "element-ui/src": "element-ui/lib"
+            }
           }
-        }]
+        ]
       ]
     },
     "test": {

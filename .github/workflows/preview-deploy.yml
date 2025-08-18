@@ -2,7 +2,7 @@ name: Preview Deploy
 
 on:
   workflow_run:
-    workflows: ['Preview Build']
+    workflows: ["Preview Build"]
     types:
       - completed
 
@@ -42,7 +42,7 @@ jobs:
             🎊 PR Preview has been successfully built and deployed to https://preview-pr-${{ steps.pr.outputs.id }}-element-ui.surge.sh
             <img width="300" src="https://user-images.githubusercontent.com/507615/90250366-88233900-de6e-11ea-95a5-84f0762ffd39.png">
             <!-- Sticky Pull Request Comment -->
-          body-include: '<!-- Sticky Pull Request Comment -->'
+          body-include: "<!-- Sticky Pull Request Comment -->"
           number: ${{ steps.pr.outputs.id }}
 
       - name: The job failed
@@ -54,7 +54,7 @@ jobs:
             😭 Deploy PR Preview failed.
             <img width="300" src="https://user-images.githubusercontent.com/507615/90250824-4e066700-de6f-11ea-8230-600ecc3d6a6b.png">
             <!-- Sticky Pull Request Comment -->
-          body-include: '<!-- Sticky Pull Request Comment -->'
+          body-include: "<!-- Sticky Pull Request Comment -->"
           number: ${{ steps.pr.outputs.id }}
 
   failed:
@@ -79,5 +79,5 @@ jobs:
             😭 Deploy PR Preview failed.
             <img width="300" src="https://user-images.githubusercontent.com/507615/90250824-4e066700-de6f-11ea-8230-600ecc3d6a6b.png">
             <!-- Sticky Pull Request Comment -->
-          body-include: '<!-- Sticky Pull Request Comment -->'
+          body-include: "<!-- Sticky Pull Request Comment -->"
           number: ${{ steps.pr.outputs.id }}

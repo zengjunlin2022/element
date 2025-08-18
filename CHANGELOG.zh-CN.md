@@ -1,13 +1,16 @@
 ## 更新日志
 
-### 2.15.14
+### 0.0.2
 
-*2023-08-24*
+_2023-08-24_
 
 #### Bug 修复
+
 - Img
   - 删除 referrerpolicy 属性 (#22651 by @xinguanhua)
+
 #### 优化
+
 - Docs
   - 更新 readme and website example links (#22642 by @lyfeyaj)
   - 更新 popper 官方文档链接 (#22539 by @brizer)
@@ -22,69 +25,76 @@
 
 ### 2.15.13
 
-*2023-02-12*
+_2023-02-12_
 
 #### Bug 修复
+
 - Docs
-  - 修复 Statistic 文案 (#22383 by @JUST-Limbo) 
-  - 修复 Input 文案 (#22093 by @lm312)  
-  - 修复 en-US 文案 (#22268 #22269 #22270 by @Hazel-Lin)  
-  - 修复 Pagination 文案 (#22288 by @xujintai123)  
-  - 修复 Links 文案 (#22370 by @itmier)  
+  - 修复 Statistic 文案 (#22383 by @JUST-Limbo)
+  - 修复 Input 文案 (#22093 by @lm312)
+  - 修复 en-US 文案 (#22268 #22269 #22270 by @Hazel-Lin)
+  - 修复 Pagination 文案 (#22288 by @xujintai123)
+  - 修复 Links 文案 (#22370 by @itmier)
 - Statistics
   - 修复 slot 显示问题 (#22375 by @webvs2)
 - Chore
   - 修复 web-type 文件丢失问题 (#22271 by @loosheng)
+
 #### 优化
+
 - InputNumber
-  - windows触摸屏响应优化 (#22185 by @mrsai)
+  - windows 触摸屏响应优化 (#22185 by @mrsai)
 - Image
-  - 新增 initialIndex 属性 (#22346 by @inkroom) 
+  - 新增 initialIndex 属性 (#22346 by @inkroom)
 - Statistics
   - countdown 特性更新 (#22260 by @webvs2)
-  - 代码优化及doc更新 (#22276 by @webvs2)
+  - 代码优化及 doc 更新 (#22276 by @webvs2)
 - 其他
-  - web-type代码优化 (#22281 by @whzxc)
+  - web-type 代码优化 (#22281 by @whzxc)
 
 ### 2.15.12
 
-*2022-11-16*
+_2022-11-16_
 
 #### Bug 修复
+
 - Statistics
   - 修改 千分位 问题 (#22252 by @webvs2)
 - 其他
-  - 修复 2.15.11版本element-theme-chalk未成功发布 问题
+  - 修复 2.15.11 版本 element-theme-chalk 未成功发布 问题
 
 ### 2.15.11
 
-*2022-11-15*
+_2022-11-15_
 
 #### Bug 修复
+
 - Docs
   - 修复 Radio 文案 (#22178 by @bchen1029)
-  - 修复 Progress 文案 
+  - 修复 Progress 文案
+
 #### 优化
+
 - I18n
   - 更新 马来西亚语 翻译 (#22185 by @z4q)
   - 更新 挪威语 翻译 (#22145 by @Barsnes)
 - Progress
-  - 新增 defineBackColor 和 textColor 属性 (#22089 by @lm312) 
+  - 新增 defineBackColor 和 textColor 属性 (#22089 by @lm312)
 - Statistics
   - 新增组件 Statistics (#22159 by @webvs2)
 - Other
-  - 改进WebStorm IDE和其他JetBrains IDE中的代码帮助 (#22135 by @piotrtomiak)
+  - 改进 WebStorm IDE 和其他 JetBrains IDE 中的代码帮助 (#22135 by @piotrtomiak)
 
 ### 2.15.10
 
-*2022-09-13*
+_2022-09-13_
 
 #### Bug 修复
 
 - DatePicker
   - 修复 props placement 报错信息 问题 (#21908 by @lqzhgood)
 - Loading
-  - 修复 使用 Loading 的DOM元素 sticky失效 问题 (#22087 by @zzjjhh001)
+  - 修复 使用 Loading 的 DOM 元素 sticky 失效 问题 (#22087 by @zzjjhh001)
 - Docs
   - 修复 Popover 文案 (#22083 by @lm312)
   - 修复 Skeleton 文案 (#22092 by @lm312)
@@ -106,7 +116,7 @@
 
 ### 2.15.9
 
-*2022-06-02*
+_2022-06-02_
 
 #### Bug 修复
 
@@ -140,7 +150,7 @@
 
 ### 2.15.8
 
-*2022-04-12*
+_2022-04-12_
 
 #### Bug 修复
 
@@ -166,11 +176,11 @@
 
 #### 其他
 
-- 因兼容性考虑，撤回2.15.7关于node-sass的更新(#21019 by @linxsbox)，重新评估后会在后续合适版本上线
+- 因兼容性考虑，撤回 2.15.7 关于 node-sass 的更新(#21019 by @linxsbox)，重新评估后会在后续合适版本上线
 
 ### 2.15.7
 
-*2021-11-18*
+_2021-11-18_
 
 #### Bug 修复
 
@@ -196,7 +206,7 @@
 
 ### 2.15.6
 
-*2021-09-02*
+_2021-09-02_
 
 #### Bug 修复
 
@@ -219,7 +229,7 @@
 
 ### 2.15.5
 
-*2021-08-04*
+_2021-08-04_
 
 #### Bug 修复
 
@@ -228,7 +238,7 @@
 
 ### 2.15.4
 
-*2021-08-03*
+_2021-08-03_
 
 #### 新特性
 
@@ -259,7 +269,8 @@
 
 ### 2.15.3
 
-*2021-06-29*
+_2021-06-29_
+
 #### 新特性
 
 - Skeleton
@@ -274,13 +285,13 @@
 - Table
   - 修复 lazy load data (#21041 by @cs1707)
 - Docs
-  - 修改 form 组件 hide-required-asterisk 描述 (#21045 by @cs1707)
+  - 修改 form 组件  hide-required-asterisk 描述 (#21045 by @cs1707)
 - Drawer:
   - 修复 destroy (#20715 by @zj9495)
 - Row
   - 修复 align top (#20963 by @cs1707)
 - Select
-  - 修复 value 为 Boolean 类型的bug (#21052 by @cs1707)
+  - 修复 value 为 Boolean 类型的 bug (#21052 by @cs1707)
 - Calendar
   - 修复 first-day-of-week (#21057 by @cs1707)
 - Utils
@@ -292,7 +303,7 @@
 
 ### 2.15.2
 
-*2021-05-28*
+_2021-05-28_
 
 #### Bug 修复
 
@@ -312,17 +323,17 @@
 
 ### 2.15.1
 
-*2021-02-23*
+_2021-02-23_
 
 #### Bug 修复
 
 - Drawer
   - 修复 Drawer bug (by @cs1707)
 - Image
-  - 修复 image object fit ratio 在 IE 下的 bug  (#19583 by @charlie0228)
+  - 修复 image object fit ratio 在 IE 下的 bug (#19583 by @charlie0228)
 - Cascader
   - 修复 cascader panel active path (#20730 by @cs1707)
-- Calendar 
+- Calendar
   - 修复 calendar 国际化 bug (#20758 by @iamkun)
 - ColorPicker
   - 修复 bugs (by @UxieVerity)
@@ -334,7 +345,7 @@
 
 ### 2.15.0
 
-*2021-01-15*
+_2021-01-15_
 
 #### Bug 修复
 
@@ -355,7 +366,7 @@
 
 ### 2.14.1
 
-*2020-11-11*
+_2020-11-11_
 
 #### Bug 修复
 
@@ -370,7 +381,7 @@
 
 ### 2.14.0
 
-*2020-10-29*
+_2020-10-29_
 
 #### 非兼容性更新
 
@@ -391,7 +402,7 @@
 
 ### 2.13.2
 
-*2020-05-18*
+_2020-05-18_
 
 #### Bug 修复
 
@@ -409,12 +420,12 @@
   - 更新 Indonesia 翻译 (#19320) by @therour)
   - 更新 Brazilian Portuguese 翻译 (#19374 by @diegomengarda)
 
-
 ### 2.13.1
 
-*2020-04-13*
+_2020-04-13_
 
 #### 新特性
+
 - Autocomplete
   - 添加 change 事件 (#17913 by @sxzz)
 
@@ -441,7 +452,7 @@
 
 ### 2.13.0
 
-*2019-11-26*
+_2019-11-26_
 
 #### 新特性
 
@@ -455,7 +466,7 @@
 - DatePicker
   - 修复选择最小日期的 bug (#17191 by @smk0621)
 - Select
-  - 修复测试用例  (by @msidolphin)
+  - 修复测试用例 (by @msidolphin)
 - Tree
   - 增加 font-size 样式 (#17094 by @spengjie)
 - Table
@@ -487,13 +498,14 @@
 - Image
   - 优化用户体验 (#16985 by @luckyCao)
   - 优化大图片展示问题 (#16796 by @luckyCao)
-- Drawer 
+- Drawer
   - 修复 drawer-append-to-body 失效的 bug (#16953 by @JeremyWuuuuu)
 - Select
   - 修复空 tag 的 bug (17199 by @luckyCao)
 - Scrollbar
+
   - 修复 FireFox 双滚动条的 bug (#18091 by @iamkun)
-  
+
 #### Optimization
 
 - I18n
@@ -510,7 +522,7 @@
 
 ### 2.12.0
 
-*2019-08-29*
+_2019-08-29_
 
 #### 新特性
 
@@ -588,7 +600,7 @@
 
 ### 2.11.1
 
-*2019-07-26*
+_2019-07-26_
 
 #### Bug 修复
 
@@ -599,7 +611,7 @@
 
 ### 2.11.0
 
-*2019-07-25*
+_2019-07-25_
 
 #### 新特性
 
@@ -624,7 +636,7 @@
   - 更新显示正确的 header 的逻辑 (#16354 by @ziyoung)
 - Submenu
   - 修复 append-to-body 问题 (#16289 by @a631807682)
-- Table 
+- Table
   - 修复 tree table 数据更新问题 (#16481 by @island205)
 - Select
   - 修复内存泄漏问题 (#16463 by @island205)
@@ -652,7 +664,7 @@
 
 ### 2.10.1
 
-*2019-07-02*
+_2019-07-02_
 
 #### Bug 修复
 
@@ -660,7 +672,7 @@
   - 排序 icon 问题修复 (#15439 by @bezany)
   - 修复 `append` slot 存在时布局错位问题 (#16332 by @ziyoung)
   - 修复 `showOverflowTooltip` 更新无效的问题 (#16295 by @a631807682)
-  - 修复 `FilterPanel` 中 `Scrollbar` 未注册问题  (#16246 by @ziyoung)
+  - 修复 `FilterPanel` 中 `Scrollbar` 未注册问题 (#16246 by @ziyoung)
 - Chore
   - 更新版本号，修复文档问题 (#16233 by @ziyoung)
   - 修复英文首页样式问题 (#16254 by @iamkun)
@@ -670,13 +682,13 @@
 - Tag
   - 兼容 IE (#16334 by @ziyoung)
 - Chore
-  - 更新钉钉3群二维码 (#16236 by @iamkun)
+  - 更新钉钉 3 群二维码 (#16236 by @iamkun)
 - Doc
   - 更新主题编辑器文档 (#16244 by @iamkun)
 
 ### 2.10.0
 
-*2019-06-25*
+_2019-06-25_
 
 #### 新特性
 
@@ -688,7 +700,6 @@
   - 新增 `Avatar` 组件 (#16144 by @luckyCao)
 - Upload:
   - 支持自定义缩略图模版 (#13192 by @victorzhuk)
-
 
 #### Bug 修复
 
@@ -729,8 +740,7 @@
 
 #### 优化
 
-- Tree
-  -优化循环性能 (#15699 by @KingJeason)
+- Tree -优化循环性能 (#15699 by @KingJeason)
 - Theme
   - 更新 GA 打点，修改页底地址链接到主题编辑器 (#16007 by @island205)
 - Badge
@@ -755,7 +765,7 @@
 
 ### 2.9.2
 
-*2019-06-21*
+_2019-06-21_
 
 #### Bug 修复
 
@@ -764,7 +774,7 @@
 
 ### 2.9.1
 
-*2019-05-30*
+_2019-05-30_
 
 #### 新特性
 
@@ -785,7 +795,7 @@
 
 ### 2.9.0
 
-*2019-05-30*
+_2019-05-30_
 
 #### 新特性
 
@@ -867,7 +877,7 @@
 
 ### 2.8.2
 
-*2019-04-25*
+_2019-04-25_
 
 #### Bug 修复
 
@@ -878,7 +888,7 @@
 
 ### 2.8.1
 
-*2019-04-25*
+_2019-04-25_
 
 #### Bug 修复
 
@@ -897,7 +907,7 @@
 
 ### 2.8.0
 
-*2019-04-25*
+_2019-04-25_
 
 #### 新特性
 
@@ -983,7 +993,7 @@
   - 更新构建脚本 (#14821 by @abc3660170)
   - 本次开发时支持热更新 (#15221 by @SimonaliaChen)
   - 本地开发时，加载 sourcemap (#15087 by @ibufu)
-Docs
+    Docs
   - 重命名 demo 中的变量 (#14602 #15003 #15094 #15105 by @liupl)
   - 修复 upload 文档中的错误 (#15023 by @iamkun)
   - 更新 Form 文档 (#15040 by @iamkun)
@@ -1001,7 +1011,7 @@ Docs
 
 ### 2.7.2
 
-*2019-04-03*
+_2019-04-03_
 
 #### 修复
 
@@ -1009,6 +1019,7 @@ Docs
   - 修复 `label-width` 为 `auto` 的样式 (#14955 by @ziyoung)
 
 #### 优化
+
 - Docs
   - 修复文档内图片链接错误 (#14957 by @iamkun)
 - Chore
@@ -1016,7 +1027,7 @@ Docs
 
 ### 2.7.1
 
-*2019-04-03*
+_2019-04-03_
 
 #### 修复
 
@@ -1032,6 +1043,7 @@ Docs
   - `label-width` 支持自动宽度 (#14944 by @ziyoung)
 
 #### 优化
+
 - Docs
   - 更新西班牙语文档 (#14913 by @Gonzalo2310)
   - 新增组件自动生成法语文档 (#14924 by @ziyoung)
@@ -1039,7 +1051,7 @@ Docs
 
 ### 2.7.0
 
-*2019-03-28*
+_2019-03-28_
 
 #### 新特性
 
@@ -1075,7 +1087,7 @@ Docs
 
 ### 2.6.3
 
-*2019-03-21*
+_2019-03-21_
 
 #### 修复
 
@@ -1085,7 +1097,7 @@ Docs
 
 ### 2.6.2
 
-*2019-03-21*
+_2019-03-21_
 
 #### 新特性
 
@@ -1130,7 +1142,7 @@ Docs
 
 ### 2.6.1
 
-*2019-03-03*
+_2019-03-03_
 
 #### 修复
 
@@ -1141,9 +1153,10 @@ Docs
 
 ### 2.6.0
 
-*2019-03-01*
+_2019-03-01_
 
 #### 新特性
+
 - Timeline
   - 添加 Timeline 组件 (by @jikkai in #14248)
 - DropdownItem
@@ -1160,10 +1173,10 @@ Docs
   - 新增法语文档 (by @smalesys in #12153, #14418, #14434)
 
 #### 优化
+
 - Alert
   - 组件对通过 slot 传入的 description 也应用默认样式类 (by @iamkun in #14488)
-- InputNumber
-  -移除多余的 `parseFloat` (by @JuniorTour in #14172)
+- InputNumber -移除多余的 `parseFloat` (by @JuniorTour in #14172)
 - Menu
   - 支持 `el-menu-item` 不添加 index (by @georgyfarniev in #13298)
 - Table
@@ -1181,11 +1194,12 @@ Docs
   - 为 Icon 文档添加 hover 效果 (by @tuxinghuan in #14295)
 - Build
   - 压缩 Element 文档站的 JS 和 CSS 文件 (by @iamkun in #14430)
-  - 优化 Webpack 打包速度，从6分钟优化到1分多 (by @hetech in #14484)
+  - 优化 Webpack 打包速度，从 6 分钟优化到 1 分多 (by @hetech in #14484)
   - 添加 CLI 工具，选择版本号 (by @hetech in #14354)
-- 使用 Stale 来管理过时（暂定1年）的 Issue 和 PR (by @island205 in #14392)
+- 使用 Stale 来管理过时（暂定 1 年）的 Issue 和 PR (by @island205 in #14392)
 
 #### 问题修复
+
 - Menu
   - 修复浏览器标签切换引起的 focus 问题 (by @liupl in #13976)
 - MessageBox
@@ -1206,12 +1220,13 @@ Docs
   - 修复分页组件文档样式问题 (by @liuchuzhang in #14451)
 
 #### 非兼容性更新
+
 - Table
   - 修复 row 事件的参数顺序 (by @jikkai in #12086)
 
 ### 2.5.4
 
-*2019-02-01*
+_2019-02-01_
 
 #### 修复
 
@@ -1219,7 +1234,7 @@ Docs
 
 ### 2.5.3
 
-*2019-01-31*
+_2019-01-31_
 
 #### 优化
 
@@ -1235,13 +1250,15 @@ Docs
 
 ### 2.5.2
 
-*2019-01-27*
+_2019-01-27_
 
 #### 优化
+
 - 文档:
   - 2.5.1 版本西班牙语文档更新 (by @Gonzalo2310 in #14231)
 
 #### 修复
+
 - 构建:
   - 删除 umd 模块 `lib/index.js` 中本没有的注释 (by @island205 in #14233)
   - 修复 nuxt.js 中关于 `export` 关键字的报错 (by @island205 in #14232)
@@ -1249,23 +1266,24 @@ Docs
 
 ### 2.5.1
 
-*2019-01-26*
+_2019-01-26_
 
 #### 优化
+
 - DatePicker：添加月、年高亮的样式（by @Debiancc in #14211）
 - 更新 2.5.0 changelog （by @wacky6 in #14217）
 
-
 #### 修复
+
 - 修复升级 Webpack 4 产生的问题，无法具名 `import` 组件，`ELEMENT.locale()` 调用报错。（by @island205 in #14220）
 - 恢复 2.4.11 文档 (by @iamkun in #14222)
 
-
 ### 2.5.0
 
-*2019-01-25*
+_2019-01-25_
 
 #### 新特性
+
 - DatePicker
   - 新增 `validate-event` 属性 (by @ziyoung in #13531)
 - DateTimePicker
@@ -1276,12 +1294,14 @@ Docs
   - 新增 柯尔克孜语 (Kyrgyz) (by @zzjframework in #14174)
 
 #### 优化
+
 - 升级到 webpack@4 (by @jikkai in #14173)
 - Input
   - 简化内部实现，遵循单向数据流；修复若干相关 Bug (by @wacky6 in #13471)
 - 更新 Axure 文件，增加新组件 (by @ziyoung in #13773)
 
 #### 修复
+
 - Autocomplete
   - 修正下拉框最后一行显示不完整的问题 (by @ziyoung in #13597)
   - 修正下拉框箭头 (by @liuchuzhang in #13762)
@@ -1339,14 +1359,14 @@ Docs
 
 ### 2.4.11
 
-*2018-11-21*
+_2018-11-21_
 
 - 撤销 pr #13296，修复点击 Menu 外部导致 Submenu 收起的问题，#13478
 - 调整小屏幕（xs）媒体查询断点，#13468 （by @alekoshen712）
 
 ### 2.4.10
 
-*2018-11-16*
+_2018-11-16_
 
 - 修复多次点击 Select 才显示下拉列表的问题，#13268
 - Form 禁用时不显示 Input 的 clear 图标，#13208
@@ -1370,7 +1390,7 @@ Docs
 
 ### 2.4.9
 
-*2018-10-26*
+_2018-10-26_
 
 - Form 组件 clearValidate 方法参数支持字符串，#12990 （by @codinglobster）
 - Badge 新增 type 属性，#12991
@@ -1401,7 +1421,7 @@ Docs
 
 ### 2.4.7
 
-*2018-09-14*
+_2018-09-14_
 
 - 修复 DatePicker 未触发表单检验的问题，#12328，#12348
 - 修复 DatePicker 多选时报错的问题，#12347
@@ -1424,7 +1444,7 @@ Docs
 
 ### 2.4.6
 
-*2018-08-09*
+_2018-08-09_
 
 - 修复 Table 的 filter 初始值为空数组时不显示筛选图标的问题，#12165
 - 修复 Menu 在更改 `collapse` 时不保存菜单激活状态的问题，#12178 (by @elfman)
@@ -1444,7 +1464,7 @@ Docs
 
 ### 2.4.5
 
-*2018-07-26*
+_2018-07-26_
 
 - 修复 Table 设置 `class-name` 对 `expand` 列不生效的问题，#12006
 - 新增 Table 的 `toggleAllSelection` 方法，#12047
@@ -1457,7 +1477,7 @@ Docs
 
 ### 2.4.4
 
-*2018-07-13*
+_2018-07-13_
 
 - 修复重置表单后触发 Select 组件校验问题，#11837
 - 修复 Input 组件 `suffix` 与 `append` 共存时样式错乱问题，#11951
@@ -1472,7 +1492,7 @@ Docs
 
 ### 2.4.3
 
-*2018-07-03*
+_2018-07-03_
 
 - 修复当自定义 Tree 节点高度时，`allow-drop` 不能正常工作的问题，#11797
 - 现在 Form 的 `clearValidate` 方法支持传入参数，指定需要清空校验结果的 FormItem，#11821
@@ -1480,7 +1500,7 @@ Docs
 
 ### 2.4.2
 
-*2018-06-26*
+_2018-06-26_
 
 - 修复 Table 的 `class-name` 和 `label-class-name` 属性不支持动态更新的问题，#11626
 - 修复 Table 在 `highlight-current-row` 为 `false` 时点击行也会触发高亮的问题，#11691 #11563
@@ -1494,7 +1514,7 @@ Docs
 
 ### 2.4.1
 
-*2018-06-08*
+_2018-06-08_
 
 - 移除 Autocomplete 的重复类型声明，#11388
 - 修复嵌套在 Form 内的 Select 在 FireFox 浏览器中下拉箭头错位的问题，#11427
@@ -1511,9 +1531,10 @@ Docs
 
 ### 2.4.0 Fullerene
 
-*2018-05-28*
+_2018-05-28_
 
 #### 新特性
+
 - 综合
   - 使用原生 webpack 作为构建和打包工具，#11216
   - 可以全局配置弹出层的初始 z-index，#11257
@@ -1530,6 +1551,7 @@ Docs
   - 新增 `sort` 方法，支持手动排序，#11311
 
 #### 修复
+
 - Input
   - 修复使用中文输入法快速输入文字时会导致视图重新渲染的问题，#11235（by @STLighter）
 - Popover
@@ -1556,7 +1578,7 @@ Docs
 
 ### 2.3.9
 
-*2018-05-18*
+_2018-05-18_
 
 - 修复当 TableColumn 的 `prop` 属性指定的字段在数据源中不存在时，鼠标移入该列单元格会报错的问题，#11137
 - 弹出类组件的 `lockScroll` 属性不再为父元素添加内联样式，而是添加相应类名，#11114
@@ -1567,7 +1589,7 @@ Docs
 
 ### 2.3.8
 
-*2018-05-11*
+_2018-05-11_
 
 - 修复 `type` 为 dates 的 DatePicker 在选择非当前月的日期后，面板会跳转至当前月的问题，#10973
 - 修复可清空的只读 Input 仍会显示清空图标的问题，#10912
@@ -1579,7 +1601,7 @@ Docs
 
 ### 2.3.7
 
-*2018-04-29*
+_2018-04-29_
 
 - 修复 Table 在由于筛选而使原有的滚动条消失后表头各列宽度未及时更新的问题，#10834
 - 修复可清空的 Input 在初始值为 `null` 时仍然显示清空图标的问题，#10912
@@ -1588,7 +1610,7 @@ Docs
 
 ### 2.3.6
 
-*2018-04-21*
+_2018-04-21_
 
 - 修复 Tree 的 `allow-drop` 回调在使用 `type` 参数后的错误行为，#10821
 - 修复可搜索的单选 Select 在 IE11 中无法输入搜索关键词的问题，#10822
@@ -1596,7 +1618,7 @@ Docs
 
 ### 2.3.5
 
-*2018-04-20*
+_2018-04-20_
 
 - 修复 DatePicker 的 `type` 为 week 时面板错误高亮的问题，#10712
 - 修复 InputNumber 初始值为 0 时输入框为空的问题，#10714
@@ -1610,7 +1632,7 @@ Docs
 
 ### 2.3.4
 
-*2018-04-12*
+_2018-04-12_
 
 - 删除 SubMenu 在 TypeScript 类型声明中重复的 `showTimeout` 属性，#10566（by @kimond）
 - 现在 Transfer 数据项的渲染支持通过 scoped slot 自定义，#10577
@@ -1622,7 +1644,7 @@ Docs
 
 ### 2.3.3
 
-*2018-04-04*
+_2018-04-04_
 
 - 新增 Card 的 `shadow` 属性，#10418（by @YunYouJun）
 - 修复 Badge 在 `value` 属性为 `0` 时不显示上标的问题，#10470
@@ -1636,22 +1658,23 @@ Docs
 
 ### 2.3.2
 
-*2018-03-29*
+_2018-03-29_
 
 - 修复 Autocomplete 报错的问题，#10442
 
 ### 2.3.1
 
-*2018-03-29*
+_2018-03-29_
 
 - 修复 Input 的 `type` 属性未传递至原生 input 元素的问题，#10415
 - 新增 Select 的 `blur` 方法，#10416
 
 ### 2.3.0 Diamond
 
-*2018-03-28*
+_2018-03-28_
 
 #### 新特性
+
 - Table
   - 现在 TableColumn 的 `formatter` 属性可以是动态的，#10184（by @elfman）
   - 新增 `select-on-indeterminate` 属性，#9924（by @syn-zeta）
@@ -1673,6 +1696,7 @@ Docs
   - 新增 `circle` 属性，#10359（by @YunYouJun）
 
 #### 修复
+
 - Form
   - 修复嵌套复合型 Input 时，FormItem 标签与输入框未对齐的问题，#10189
 - Menu
@@ -1686,7 +1710,7 @@ Docs
 
 ### 2.2.2
 
-*2018-03-14*
+_2018-03-14_
 
 - 新增 Input 的 `clear` 事件，#9988（by @blackmiaool）
 - 现在 ColorPicker 的手动输入支持 `hsl`、`hsv` 和 `rgb` 格式了，#9991
@@ -1704,7 +1728,7 @@ Docs
 
 ### 2.2.1
 
-*2018-03-02*
+_2018-03-02_
 
 - 修复 Aside、Header 和 Footer 在某些布局中被压缩的问题，#9812
 - 修复设置了 `height` 属性的 Table 在服务端渲染时无法加载的问题，#9876
@@ -1717,9 +1741,10 @@ Docs
 
 ### 2.2.0 Graphite
 
-*2018-02-12*
+_2018-02-12_
 
 #### 新特性
+
 - Menu
   - SubMenu 新增 `popper-class` 和 `disabled` 属性，#9604 #9771
   - 现在水平模式下的 Menu 支持多级 SubMenu 了，#9741
@@ -1733,6 +1758,7 @@ Docs
   - 新增 `popper-append-to-body` 属性，#9782
 
 #### 修复
+
 - Table
   - 修复点击可展开行的展开图标会触发 `row-click` 事件的问题，#9654
   - 修复某些情况下通过拖动改变列宽后，布局没有同步更新的问题，#9668
@@ -1746,9 +1772,10 @@ Docs
 
 ### 2.1.0 Charcoal
 
-*2018-01-31*
+_2018-01-31_
 
 #### 新特性
+
 - Cascader
   - 新增 `focus` 和 `blur` 事件，#9184（by @viewweiwu）
 - Table
@@ -1768,6 +1795,7 @@ Docs
   - 新增 `closeAll` 方法，#9514
 
 #### 修复
+
 - InputNumber
   - 修复初始输入小数点时被重置的问题，#9116
 - Dropdown
@@ -1789,6 +1817,7 @@ Docs
   - 修复在 IE 11 中的样式问题，#9454
 
 #### 非兼容性更新
+
 - Menu
   - `collapse` 状态下的弹出菜单现在会插入至 body 元素，修复其位于 Aside 内时弹出菜单不可见的问题，#9263
 - Table
@@ -1800,7 +1829,7 @@ Docs
 
 ### 2.0.11
 
-*2018-01-08*
+_2018-01-08_
 
 - 修复 Input 的 `prepend` 或 `append` slot 中 Select 的边框颜色错误，#9089
 - 修复 Select 的 `remove-tag` 事件参数与文档不符的问题，#9090
@@ -1811,7 +1840,7 @@ Docs
 
 ### 2.0.10
 
-*2017-12-29*
+_2017-12-29_
 
 - 修复了 Table 在固定列和合计行并存时的高度计算错误的问题，#9026
 - 修复了 Table 样式 SCSS 文件错误编译的问题，#9028
@@ -1820,7 +1849,7 @@ Docs
 
 ### 2.0.9🎄
 
-*2017-12-24*
+_2017-12-24_
 
 - 新增 Upload 的 `before-remove` 钩子方法，#8788（by @firesh）
 - 修复 FormItem 的 `error` 属性初始值无效的问题，#8840
@@ -1830,7 +1859,7 @@ Docs
 
 ### 2.0.8
 
-*2017-12-12*
+_2017-12-12_
 
 - 新增西班牙语文档
 - 修复 `show-timeout` 对点击触发的 Dropdown 无效的问题，#8734（by @presidenten）
@@ -1840,13 +1869,13 @@ Docs
 
 ### 2.0.7
 
-*2017-11-29*
+_2017-11-29_
 
 - 修复禁用文字按钮的样式问题，#8570
 
 ### 2.0.6
 
-*2017-11-29*
+_2017-11-29_
 
 - 修复 Table 排序图标的样式问题，#8405
 - 修复 `trigger` 为 manual 的 Popover 的触发问题，#8467
@@ -1857,7 +1886,7 @@ Docs
 
 ### 2.0.5
 
-*2017-11-17*
+_2017-11-17_
 
 - 修复上个版本引入的 Popover、Tree、Breadcrumb、Cascader 的 bug，#8188 #8217 #8283
 - 修复 clickoutside 指令的内存泄露问题，#8168 #8225（by @badpunman @STLighter）
@@ -1868,7 +1897,7 @@ Docs
 
 ### 2.0.4
 
-*2017-11-10*
+_2017-11-10_
 
 - 提升 Cascader、Dropdown、Message、Notification、Popover、Tooltip、Tree 的可访问性
 - 修复当视口变窄时 Container 无法同步更新其宽度的问题，#8042
@@ -1878,7 +1907,7 @@ Docs
 
 ### 2.0.3
 
-*2017-11-03*
+_2017-11-03_
 
 - 修复范围选择的 DatePicker `editable` 和 `readonly` 属性无法正常工作的问题，#7922
 - 修复嵌套的 Tabs 的样式错误，#7941
@@ -1888,7 +1917,7 @@ Docs
 
 ### 2.0.2
 
-*2017-10-31*
+_2017-10-31_
 
 - 在 InputNumber 的加减按钮上单击鼠标右键不再触发值的改变，#7817
 - Form 的 `validate` 方法现在能够正确地在异步校验完成后执行回调了，#7774（by @Allenice）
@@ -1901,7 +1930,7 @@ Docs
 
 ### 2.0.1
 
-*2017-10-28*
+_2017-10-28_
 
 - 修复 RadioButton 和 CheckboxButton 的样式问题，#7793
 - 修复 TimePicker 在某些情况下无法滚动的问题，#7811
@@ -1909,9 +1938,10 @@ Docs
 
 ### 2.0.0 Carbon
 
-*2017-10-27*
+_2017-10-27_
 
 #### 新特性
+
 - 综合
   - 新增 `theme-chalk` 主题
   - 增强以下组件的可访问性：Alert、AutoComplete、Breadcrumb、Button、Checkbox、Collapse、Input、InputNumber、Menu、Progress、Radio、Rate、Slider、Switch 和 Upload
@@ -1942,7 +1972,7 @@ Docs
   - 新增 `closeOnHashChange` 属性 #6043
   - 新增 `center` 属性，提供居中布局 #7029
   - 新增 `roundButton` 属性，使得内部按钮为圆角按钮 #7029
-  - 新增 `dangerouslyUseHTMLString` 属性，使得 `message` 支持传入 HTML 字符串<sup>*</sup> #6043
+  - 新增 `dangerouslyUseHTMLString` 属性，使得 `message` 支持传入 HTML 字符串<sup>\*</sup> #6043
   - 新增 `inputType` 属性，用户指定内部输入框的类型，#7651
 - Dialog
   - 新增 `width`、`fullscreen`、`append-to-body` 属性，支持嵌套使用
@@ -1955,11 +1985,11 @@ Docs
   - 新增 `popper-class` 属性，#7351
 - Message
   - 图标部分使用 icon 代替图片，从而支持通过 CSS 修改图标背景色 #6207
-  - 新增 `dangerouslyUseHTMLString` 属性，使得 `message` 属性支持传入 HTML 字符串<sup>*</sup> #6207
+  - 新增 `dangerouslyUseHTMLString` 属性，使得 `message` 属性支持传入 HTML 字符串<sup>\*</sup> #6207
   - 新增 `center` 属性，提供居中布局 #6875
 - Notification
   - 新增 `position` 属性，用于配置 Notification 出现的位置 #6231
-  - 新增 `dangerouslyUseHTMLString` 属性，使得 `message` 属性支持传入 HTML 字符串<sup>*</sup> #6231
+  - 新增 `dangerouslyUseHTMLString` 属性，使得 `message` 属性支持传入 HTML 字符串<sup>\*</sup> #6231
   - 新增 `showClose` 属性，用于隐藏关闭按钮 #6402
 - Rate
   - 新增 `show-score` 属性，控制是否在右侧显示当前分数 #6295
@@ -2017,6 +2047,7 @@ Docs
   - 新增 `reserve-keyword` 属性，用于在选择某个选项后保留当前的搜索关键词
 
 #### 修复
+
 - DatePicker
   - 选择周数时，`v-model` 结果返回该周第二天的问题 #6038
   - 在 `daterange` 类型中，第一次的输入会被清空的问题 #6021
@@ -2040,6 +2071,7 @@ Docs
   - 修复一些样式上的计算错误
 
 #### 非兼容性更新
+
 - 综合
   - 移除 `theme-default`
   - 最低兼容 Vue 2.5.2 和 IE 10
@@ -2082,4 +2114,5 @@ Docs
   - `row-class-name` 和 `row-style` 的函数参数改为对象，以保证 API 的一致性
 
 ##
-<i><sup>*</sup> 在网站上动态渲染任意 HTML 是非常危险的，因为容易导致 [XSS 攻击](https://en.wikipedia.org/wiki/Cross-site_scripting)。因此请在 `dangerouslyUseHTMLString` 打开的情况下，确保 `message` 的内容是可信的，**永远不要**将用户提交的内容赋值给 `message` 属性。</i>
+
+<i><sup>\*</sup> 在网站上动态渲染任意 HTML 是非常危险的，因为容易导致 [XSS 攻击](https://en.wikipedia.org/wiki/Cross-site_scripting)。因此请在 `dangerouslyUseHTMLString` 打开的情况下，确保 `message` 的内容是可信的，**永远不要**将用户提交的内容赋值给 `message` 属性。</i>
